@@ -1,0 +1,32 @@
+Feature: 
+  1. provide setting
+  2. list all satellites on the given location
+  3. track satellites on map
+
+Library:
+  https://www.react-simple-maps.io/examples/
+
+
+Layout:
+  top
+  main(left right)
+  bottom
+
+Components:
+                                         APP
+
+                Header                   Main                         Footer
+                                         cb1: onShow
+                                         cb2: onShowMap
+                                         satInfo
+                                         isLoad
+
+                    SatSetting          Satlist             WorldMap
+                    onShow              onShowMap           
+                                        satInfo
+                                        isLoad
+
+
+Ref define:
+    - React.createRef() //需要用的时候再拿
+    - (refInstance)=>{} // 一create/ didmount就有
