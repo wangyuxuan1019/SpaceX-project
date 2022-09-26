@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+Starlink Visualization
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).  
+This project is React JS based Starlink Visualization 
   
 •	Designed and developed a visualization dashboard using ReactJS and D3 to track satellites in real-time based on geo-location.  
 •	Built location, altitude, and duration based selector to refine satellite search.  
